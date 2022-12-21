@@ -12,6 +12,7 @@
         - git
         - openjdk-8-jdk
         - maven
+
 - name: Clone source code from github
   git:
     repo: 'https://github.com/devopshydclub/vprofile-project.git'
