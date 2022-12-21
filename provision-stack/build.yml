@@ -17,7 +17,7 @@
   git:
     repo: 'https://github.com/devopshydclub/vprofile-project.git'
     dest: ./Vprofile-repo
-    version: nvp-rem
+    version: vp-rem
   register: git_status
 
 - name: mvn install command to build artifact
