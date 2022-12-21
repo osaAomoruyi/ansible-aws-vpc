@@ -8,6 +8,9 @@
 - name: Setup dbserver
   import_playbook: db.yml
 
+- name: Deploy SQL file on Observer
+  import_playbook: dbdeploy.yml
+
 - name: Setup Memcached service
   import_playbook: memcache.yml
 
