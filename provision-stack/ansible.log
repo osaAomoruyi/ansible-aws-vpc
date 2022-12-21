@@ -1,0 +1,227 @@
+2022-12-21 00:05:36,025 p=1211 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro with yaml plugin: YAML inventory has invalid structure, it
+should be a dictionary, got: <class
+'ansible.parsing.yaml.objects.AnsibleUnicode'>
+
+2022-12-21 00:05:36,026 p=1211 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro with ini plugin: /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro:28: Section [stack_inst:children] includes undefined
+group: mcsrvgrp
+
+2022-12-21 00:05:36,026 p=1211 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro as an inventory source
+
+2022-12-21 00:05:36,026 p=1211 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2022-12-21 00:05:36,305 p=1211 u=ubuntu n=ansible | ERROR! 'git' is not a valid attribute for a Play
+
+The error appears to be in '/home/ubuntu/ansible-aws-vpc/provision-stack/build.yml': line 15, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        - maven
+- name: Clone source code from github
+  ^ here
+
+2022-12-21 00:08:44,291 p=1231 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro with yaml plugin: YAML inventory has invalid structure, it
+should be a dictionary, got: <class
+'ansible.parsing.yaml.objects.AnsibleUnicode'>
+
+2022-12-21 00:08:44,294 p=1231 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro with ini plugin: /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro:28: Section [stack_inst:children] includes undefined
+group: mcsrvgrp
+
+2022-12-21 00:08:44,294 p=1231 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro as an inventory source
+
+2022-12-21 00:08:44,294 p=1231 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2022-12-21 00:08:44,453 p=1231 u=ubuntu n=ansible | ERROR! 'git' is not a valid attribute for a Play
+
+The error appears to be in '/home/ubuntu/ansible-aws-vpc/provision-stack/build.yml': line 16, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Clone source code from github
+  ^ here
+
+2022-12-21 00:12:17,308 p=1250 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro with yaml plugin: YAML inventory has invalid structure, it
+should be a dictionary, got: <class
+'ansible.parsing.yaml.objects.AnsibleUnicode'>
+
+2022-12-21 00:12:17,309 p=1250 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro with ini plugin: /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro:28: Section [stack_inst:children] includes undefined
+group: mcsrvgrp
+
+2022-12-21 00:12:17,309 p=1250 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro as an inventory source
+
+2022-12-21 00:12:17,309 p=1250 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2022-12-21 00:12:17,467 p=1250 u=ubuntu n=ansible | ERROR! 'git' is not a valid attribute for a Play
+
+The error appears to be in '/home/ubuntu/ansible-aws-vpc/provision-stack/build.yml': line 16, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Clone source code from github
+  ^ here
+
+2022-12-21 00:27:50,283 p=1290 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro with yaml plugin: YAML inventory has invalid structure, it
+should be a dictionary, got: <class
+'ansible.parsing.yaml.objects.AnsibleUnicode'>
+
+2022-12-21 00:27:50,284 p=1290 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro with ini plugin: /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro:28: Section [stack_inst:children] includes undefined
+group: mcsrvgrp
+
+2022-12-21 00:27:50,284 p=1290 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro as an inventory source
+
+2022-12-21 00:27:50,284 p=1290 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2022-12-21 00:27:50,445 p=1290 u=ubuntu n=ansible | ERROR! 'with_filesglob' is not a valid attribute for a Task
+
+The error appears to be in '/home/ubuntu/ansible-aws-vpc/provision-stack/build.yml': line 30, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+    - name: Copy artifact to files directory
+      ^ here
+
+This error can be suppressed as a warning using the "invalid_task_attribute_failed" configuration
+
+The error appears to be in '/home/ubuntu/ansible-aws-vpc/provision-stack/build.yml': line 30, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+    - name: Copy artifact to files directory
+      ^ here
+
+2022-12-21 00:43:35,977 p=1322 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro with yaml plugin: YAML inventory has invalid structure, it
+should be a dictionary, got: <class
+'ansible.parsing.yaml.objects.AnsibleUnicode'>
+
+2022-12-21 00:43:35,977 p=1322 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro with ini plugin: /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro:28: Section [stack_inst:children] includes undefined
+group: mcsrvgrp
+
+2022-12-21 00:43:35,978 p=1322 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro as an inventory source
+
+2022-12-21 00:43:35,978 p=1322 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2022-12-21 00:43:36,162 p=1322 u=ubuntu n=ansible | PLAY [Generate artifact, copy artifact & sql file to files directory] **********
+2022-12-21 00:43:36,179 p=1322 u=ubuntu n=ansible | TASK [Gathering Facts] *********************************************************
+2022-12-21 00:43:37,518 p=1322 u=ubuntu n=ansible | ok: [localhost]
+2022-12-21 00:43:37,534 p=1322 u=ubuntu n=ansible | TASK [Install  jdk, maven, git] ************************************************
+2022-12-21 00:43:44,487 p=1322 u=ubuntu n=ansible | ok: [localhost] => (item=git)
+2022-12-21 00:44:26,848 p=1322 u=ubuntu n=ansible | changed: [localhost] => (item=openjdk-8-jdk)
+2022-12-21 00:44:34,991 p=1322 u=ubuntu n=ansible | changed: [localhost] => (item=maven)
+2022-12-21 00:44:35,005 p=1322 u=ubuntu n=ansible | TASK [Clone source code from github] *******************************************
+2022-12-21 00:44:39,112 p=1322 u=ubuntu n=ansible | changed: [localhost]
+2022-12-21 00:44:39,124 p=1322 u=ubuntu n=ansible | TASK [mvn install command to build artifact] ***********************************
+2022-12-21 00:45:20,608 p=1322 u=ubuntu n=ansible | changed: [localhost]
+2022-12-21 00:45:20,627 p=1322 u=ubuntu n=ansible | TASK [Copy artifacts to files directory] ***************************************
+2022-12-21 00:45:21,769 p=1322 u=ubuntu n=ansible | changed: [localhost] => (item=/home/ubuntu/ansible-aws-vpc/provision-stack/Vprofile-repo/target/vprofile-v2.war)
+2022-12-21 00:45:21,779 p=1322 u=ubuntu n=ansible | TASK [Copy SQL file to files directory] ****************************************
+2022-12-21 00:45:22,221 p=1322 u=ubuntu n=ansible | changed: [localhost]
+2022-12-21 00:45:22,237 p=1322 u=ubuntu n=ansible | PLAY RECAP *********************************************************************
+2022-12-21 00:45:22,237 p=1322 u=ubuntu n=ansible | localhost                  : ok=6    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-12-21 01:30:40,490 p=7191 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro with yaml plugin: YAML inventory has invalid structure, it
+should be a dictionary, got: <class
+'ansible.parsing.yaml.objects.AnsibleUnicode'>
+
+2022-12-21 01:30:40,491 p=7191 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro with ini plugin: /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro:28: Section [stack_inst:children] includes undefined
+group: mcsrvgrp
+
+2022-12-21 01:30:40,491 p=7191 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/ansible-aws-vpc/provision-
+stack/inventory-vpro as an inventory source
+
+2022-12-21 01:30:40,491 p=7191 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2022-12-21 01:30:40,850 p=7191 u=ubuntu n=ansible | PLAY [Set host to ip mapping in /etc/hosts file of all the instances in the stack] ***
+2022-12-21 01:30:40,866 p=7191 u=ubuntu n=ansible | TASK [Gathering Facts] *********************************************************
+2022-12-21 01:30:42,350 p=7191 u=ubuntu n=ansible | fatal: [mc01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ubuntu@172.20.4.236: Permission denied (publickey).", "unreachable": true}
+2022-12-21 01:30:43,100 p=7191 u=ubuntu n=ansible | ok: [web01]
+2022-12-21 01:30:43,538 p=7191 u=ubuntu n=ansible | ok: [rmq01]
+2022-12-21 01:30:43,715 p=7191 u=ubuntu n=ansible | ok: [db01]
+2022-12-21 01:30:43,719 p=7191 u=ubuntu n=ansible | ok: [app01]
+2022-12-21 01:30:43,804 p=7191 u=ubuntu n=ansible | ok: [cntl]
+2022-12-21 01:30:43,821 p=7191 u=ubuntu n=ansible | TASK [Import VPC setup Variable] ***********************************************
+2022-12-21 01:30:43,869 p=7191 u=ubuntu n=ansible | ok: [web01]
+2022-12-21 01:30:43,892 p=7191 u=ubuntu n=ansible | ok: [app01]
+2022-12-21 01:30:43,914 p=7191 u=ubuntu n=ansible | ok: [rmq01]
+2022-12-21 01:30:43,915 p=7191 u=ubuntu n=ansible | ok: [db01]
+2022-12-21 01:30:43,921 p=7191 u=ubuntu n=ansible | ok: [cntl]
+2022-12-21 01:30:43,929 p=7191 u=ubuntu n=ansible | TASK [Update hosts file for all the hosts] *************************************
+2022-12-21 01:30:44,727 p=7191 u=ubuntu n=ansible | changed: [cntl]
+2022-12-21 01:30:44,737 p=7191 u=ubuntu n=ansible | changed: [rmq01]
+2022-12-21 01:30:44,739 p=7191 u=ubuntu n=ansible | changed: [app01]
+2022-12-21 01:30:44,739 p=7191 u=ubuntu n=ansible | changed: [web01]
+2022-12-21 01:30:44,748 p=7191 u=ubuntu n=ansible | changed: [db01]
+2022-12-21 01:30:44,764 p=7191 u=ubuntu n=ansible | PLAY RECAP *********************************************************************
+2022-12-21 01:30:44,765 p=7191 u=ubuntu n=ansible | app01                      : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-12-21 01:30:44,765 p=7191 u=ubuntu n=ansible | cntl                       : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-12-21 01:30:44,765 p=7191 u=ubuntu n=ansible | db01                       : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-12-21 01:30:44,765 p=7191 u=ubuntu n=ansible | mc01                       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-12-21 01:30:44,765 p=7191 u=ubuntu n=ansible | rmq01                      : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-12-21 01:30:44,766 p=7191 u=ubuntu n=ansible | web01                      : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-12-21 01:34:33,403 p=7431 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible-aws-vpc/provision-stack/inventory-vpro with yaml plugin: YAML
+inventory has invalid structure, it should be a dictionary, got: <class 'ansible.parsing.yaml.objects.AnsibleUnicode'>
+
+2022-12-21 01:34:33,404 p=7431 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible-aws-vpc/provision-stack/inventory-vpro with ini plugin:
+/home/ubuntu/ansible-aws-vpc/provision-stack/inventory-vpro:28: Section [stack_inst:children] includes undefined group:
+mcsrvgrp
+
+2022-12-21 01:34:33,404 p=7431 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/ansible-aws-vpc/provision-stack/inventory-vpro as an inventory source
+
+2022-12-21 01:34:33,404 p=7431 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2022-12-21 01:34:33,574 p=7431 u=ubuntu n=ansible | PLAY [Set host to ip mapping in /etc/hosts file of all the instances in the stack] **************************************
+2022-12-21 01:34:33,584 p=7431 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2022-12-21 01:34:35,105 p=7431 u=ubuntu n=ansible | fatal: [mc01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ubuntu@172.20.4.236: Permission denied (publickey).", "unreachable": true}
+2022-12-21 01:34:35,990 p=7431 u=ubuntu n=ansible | ok: [web01]
+2022-12-21 01:34:35,999 p=7431 u=ubuntu n=ansible | ok: [db01]
+2022-12-21 01:34:36,010 p=7431 u=ubuntu n=ansible | ok: [app01]
+2022-12-21 01:34:36,017 p=7431 u=ubuntu n=ansible | ok: [rmq01]
+2022-12-21 01:34:36,212 p=7431 u=ubuntu n=ansible | ok: [cntl]
+2022-12-21 01:34:36,228 p=7431 u=ubuntu n=ansible | TASK [Import VPC setup Variable] ****************************************************************************************
+2022-12-21 01:34:36,275 p=7431 u=ubuntu n=ansible | ok: [web01]
+2022-12-21 01:34:36,295 p=7431 u=ubuntu n=ansible | ok: [app01]
+2022-12-21 01:34:36,316 p=7431 u=ubuntu n=ansible | ok: [rmq01]
+2022-12-21 01:34:36,318 p=7431 u=ubuntu n=ansible | ok: [db01]
+2022-12-21 01:34:36,326 p=7431 u=ubuntu n=ansible | ok: [cntl]
+2022-12-21 01:34:36,335 p=7431 u=ubuntu n=ansible | TASK [Update hosts file for all the hosts] ******************************************************************************
+2022-12-21 01:34:37,092 p=7431 u=ubuntu n=ansible | ok: [db01]
+2022-12-21 01:34:37,095 p=7431 u=ubuntu n=ansible | ok: [rmq01]
+2022-12-21 01:34:37,098 p=7431 u=ubuntu n=ansible | ok: [web01]
+2022-12-21 01:34:37,101 p=7431 u=ubuntu n=ansible | ok: [app01]
+2022-12-21 01:34:37,116 p=7431 u=ubuntu n=ansible | ok: [cntl]
+2022-12-21 01:34:37,131 p=7431 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2022-12-21 01:34:37,131 p=7431 u=ubuntu n=ansible | app01                      : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-12-21 01:34:37,132 p=7431 u=ubuntu n=ansible | cntl                       : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-12-21 01:34:37,132 p=7431 u=ubuntu n=ansible | db01                       : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-12-21 01:34:37,132 p=7431 u=ubuntu n=ansible | mc01                       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-12-21 01:34:37,132 p=7431 u=ubuntu n=ansible | rmq01                      : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-12-21 01:34:37,132 p=7431 u=ubuntu n=ansible | web01                      : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
